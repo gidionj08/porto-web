@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gidion Jamlean - Portfolio Reels & Content Creator</title>
+    <!-- Tailwind -->
+    <script src="assets/css/tailwind.cdn.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fdfbf7',
+                            100: '#f5efe1',
+                            200: '#e6d8be',
+                            300: '#d2bc93',
+                            400: '#bd9e6b',
+                            500: '#aa824a',
+                            600: '#946c3b',
+                            700: '#7b5630',
+                            800: '#64452a',
+                            900: '#523924',
+                        }
+                    },
+                    aspectRatio: {
+                        '9/16': '9 / 16',
+                        '1/1': '1 / 1',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fdfbf7;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #e6d8be;
+            border-radius: 9999px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bd9e6b;
+        }
+    </style>
+</head>
+
+<body class="bg-brand-50 text-stone-800 antialiased font-sans">
+
+    <!-- Header / Navbar -->
+    <header
+        class="fixed top-0 left-0 right-0 bg-brand-50/80 backdrop-blur-md z-50 border-b border-brand-100 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 sm:h-20">
+                <div class="flex items-center gap-2">
+                    <span
+                        class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-extrabold text-lg">G</span>
+                    <span class="font-bold text-xl tracking-tight text-brand-900">Gidion Jamlean</span>
+                </div>
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center gap-6 lg:gap-8">
+                    <a href="#about" class="text-stone-600 hover:text-brand-700 font-medium transition-colors">Tentang
+                        Saya</a>
+                    <a href="#experience"
+                        class="text-stone-600 hover:text-brand-700 font-medium transition-colors">Pengalaman</a>
+                    <a href="#portfolio-section"
+                        class="text-stone-600 hover:text-brand-700 font-medium transition-colors">Portofolio Karya</a>
+                    <a href="#skills"
+                        class="text-stone-600 hover:text-brand-700 font-medium transition-colors">Keahlian</a>
+                    <a href="#education"
+                        class="text-stone-600 hover:text-brand-700 font-medium transition-colors">Pendidikan</a>
+                    <a href="#contact"
+                        class="px-5 py-2.5 rounded-full bg-brand-600 hover:bg-brand-700 text-white font-semibold shadow-md shadow-brand-600/10 hover:shadow-lg transition-all text-sm">Hubungi
+                        Saya</a>
+                </nav>
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" aria-label="Toggle menu"
+                    class="md:hidden text-stone-600 hover:text-brand-700 focus:outline-none p-2">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Nav -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-brand-50 border-b border-brand-100 px-4 py-4 space-y-3 shadow-inner">
+            <a href="#about" class="block text-stone-600 hover:text-brand-700 font-medium py-2">Tentang Saya</a>
+            <a href="#experience" class="block text-stone-600 hover:text-brand-700 font-medium py-2">Pengalaman</a>
+            <a href="#portfolio-section" class="block text-stone-600 hover:text-brand-700 font-medium py-2">Portofolio
+                Karya</a>
+            <a href="#skills" class="block text-stone-600 hover:text-brand-700 font-medium py-2">Keahlian</a>
+            <a href="#education" class="block text-stone-600 hover:text-brand-700 font-medium py-2">Pendidikan</a>
+            <a href="#contact"
+                class="block text-center px-5 py-2.5 rounded-full bg-brand-600 text-white font-semibold text-sm">Hubungi
+                Saya</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-32 bg-gradient-to-b from-brand-100 to-brand-50 overflow-hidden">
+        <!-- Background decorative blur elements -->
+        <div
+            class="absolute top-1/4 left-10 w-72 h-72 bg-brand-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse">
+        </div>
+        <div
+            class="absolute bottom-10 right-10 w-80 h-80 bg-brand-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20">
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <!-- Hero Left: Info -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-200 text-brand-800 font-semibold text-xs uppercase tracking-wider">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Content Creator & S1 Sistem Informasi
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-900 leading-tight">
+                        Halo, Saya <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 to-brand-500">Gidion
+                            Jamlean</span>
+                    </h1>
+                    <p class="text-lg text-stone-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                        Mengintegrasikan latar belakang analitis dari studi <strong>Sistem Informasi</strong> dengan
+                        dunia kreatif digital untuk merancang kampanye visual, memproduksi konten Reels/TikTok, serta
+                        menganalisis data performa secara terstruktur.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#contact"
+                            class="w-full sm:w-auto text-center px-8 py-4 rounded-full bg-brand-600 hover:bg-brand-700 text-white font-bold shadow-lg shadow-brand-600/20 hover:translate-y-[-2px] transition-all">
+                            Hubungi Saya <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#portfolio-section"
+                            class="w-full sm:w-auto text-center px-8 py-4 rounded-full bg-white hover:bg-stone-50 text-stone-800 font-bold border border-stone-200 shadow-sm hover:translate-y-[-2px] transition-all">
+                            Lihat Karya Portofolio <i class="fa-solid fa-photo-film ml-1 text-pink-600"></i>
+                        </a>
+                    </div>
+                    <div
+                        class="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 pt-6 text-stone-500 text-sm">
+                        <span><i class="fa-solid fa-map-marker-alt text-brand-600 mr-2"></i> Tangerang Selatan,
+                            Banten</span>
+                        <span><i class="fa-solid fa-envelope text-brand-600 mr-2"></i> gidionjamlean10@gmail.com</span>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Photo with the correct file path as requested -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-72 h-96 sm:w-80 sm:h-[420px]">
+                        <!-- Photo Frame styling with modern warm tones -->
+                        <div
+                            class="absolute inset-0 bg-brand-300 rounded-2xl transform rotate-3 scale-105 opacity-45 shadow-lg">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-brand-800 rounded-2xl transform -rotate-3 scale-102 opacity-15 shadow-md">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-white">
+                            <img src="assets/image/profil.jpeg"
+                                onerror="this.onerror=null; this.src='https://placehold.co/400x500/d2bc93/523924?text=Gidion+Jamlean';"
+                                alt="Gidion Jamlean"
+                                class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-12">
+                <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Tentang Saya</h2>
+                <div class="w-16 h-1 bg-brand-600 mx-auto rounded"></div>
+            </div>
+
+            <div class="bg-brand-50 rounded-2xl p-8 border border-brand-100 shadow-sm space-y-6">
+                <p class="text-stone-700 leading-relaxed text-lg">
+                    Saya adalah mahasiswa aktif program studi <strong>Sistem Informasi di Universitas Pamulang</strong>.
+                    Dengan perspektif terstruktur dan analitis yang diperoleh dari bangku kuliah, saya mengaplikasikan
+                    keterampilan tersebut ke ranah produksi konten digital berdurasi singkat (<b>Reels</b>,
+                    <b>TikTok</b>,
+                    <b>Shorts</b>) serta desain materi publikasi.
+                </p>
+                <p class="text-stone-700 leading-relaxed text-lg">
+                    Sebagai kreator di <strong>PSM Gita Sasmita</strong>, saya dipercaya menangani seluruh
+                    rangkaian kampanye: merancang rencana konten (<b>Planning</b>), tampil komunikatif di depan layar
+                    (<b>Talent</b>), memproduksi desain feeds, hingga menyunting audio-visual (<b>Video Editing</b>)
+                    dengan fokus
+                    utama pencapaian engagement yang optimal.
+                </p>
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 text-center">
+                    <div class="p-4 bg-white rounded-xl shadow-xs border border-stone-100">
+                        <span class="block text-brand-600 text-2xl font-bold mb-1"><i
+                                class="fa-solid fa-calendar-check"></i></span>
+                        <span class="text-xs text-stone-500 uppercase tracking-wide">Content Strategy</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-xl shadow-xs border border-stone-100">
+                        <span class="block text-brand-600 text-2xl font-bold mb-1"><i
+                                class="fa-solid fa-microphone"></i></span>
+                        <span class="text-xs text-stone-500 uppercase tracking-wide">Talent & Presenting</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-xl shadow-xs border border-stone-100">
+                        <span class="block text-brand-600 text-2xl font-bold mb-1"><i
+                                class="fa-solid fa-film"></i></span>
+                        <span class="text-xs text-stone-500 uppercase tracking-wide">Video Editing</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-xl shadow-xs border border-stone-100">
+                        <span class="block text-brand-600 text-2xl font-bold mb-1"><i
+                                class="fa-solid fa-images"></i></span>
+                        <span class="text-xs text-stone-500 uppercase tracking-wide">Feed Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Interactive Tabs) -->
+    <section id="experience" class="py-20 bg-brand-50/50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-12">
+                <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Pengalaman Organisasi</h2>
+                <p class="text-stone-500">Bagaimana saya berperan aktif dalam manajemen konten kreatif digital</p>
+                <div class="w-16 h-1 bg-brand-600 mx-auto rounded"></div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md border border-brand-100 overflow-hidden">
+                <div class="p-6 sm:p-8 bg-brand-100 border-b border-brand-200">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                        <div>
+                            <span
+                                class="px-3 py-1 bg-brand-600 text-white rounded-full text-xs font-semibold uppercase tracking-wider">Organisasi</span>
+                            <h3 class="text-2xl font-extrabold text-stone-900 mt-2">Divisi Konten - PSM Gita Sasmita
+                            </h3>
+                            <p class="text-stone-600 font-medium">Paduan Suara Mahasiswa Universitas Pamulang</p>
+                        </div>
+                        <div class="text-left md:text-right">
+                            <span class="text-brand-800 font-bold block"><i class="fa-regular fa-calendar-alt mr-2"></i>
+                                Feb 2026 - Sekarang</span>
+                            <span class="text-stone-500 text-sm">Pamulang, Tangerang Selatan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Role Tabs Navigator -->
+                <div class="flex border-b border-stone-100 bg-stone-50/50 overflow-x-auto">
+                    <button onclick="switchTab('planner')" id="tab-planner"
+                        class="flex-1 min-w-[120px] py-4 px-6 text-center font-bold text-sm transition-all border-b-2 border-brand-600 text-brand-700 bg-white">
+                        <i class="fa-solid fa-compass-drafting mr-2"></i> Content Planner
+                    </button>
+                    <button onclick="switchTab('talent')" id="tab-talent"
+                        class="flex-1 min-w-[120px] py-4 px-6 text-center font-semibold text-sm transition-all border-b-2 border-transparent text-stone-500 hover:text-stone-800">
+                        <i class="fa-solid fa-microphone mr-2"></i> Talent
+                    </button>
+                    <button onclick="switchTab('editor')" id="tab-editor"
+                        class="flex-1 min-w-[120px] py-4 px-6 text-center font-semibold text-sm transition-all border-b-2 border-transparent text-stone-500 hover:text-stone-800">
+                        <i class="fa-solid fa-clapperboard mr-2"></i> Video Editor
+                    </button>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="p-6 sm:p-8">
+                    <!-- Content Planner Tab -->
+                    <div id="content-planner" class="space-y-6 tab-content">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-brand-700">
+                                <i class="fa-solid fa-lightbulb text-lg"></i>
+                            </div>
+                            <h4 class="text-lg font-bold text-stone-900">Perencana & Konseptor Komunikasi Visual</h4>
+                        </div>
+                        <p class="text-stone-600 leading-relaxed">
+                            Fokus utama peran saya adalah merumuskan strategi kreatif kampanye digital untuk pendaftaran
+                            anggota baru (Open Recruitment) PSM Gita Sasmita untuk memaksimalkan jangkauan audiens
+                            mahasiswa baru.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                            <div class="p-4 bg-stone-50 rounded-xl border border-stone-100 flex gap-3">
+                                <i class="fa-solid fa-calendar-day text-brand-600 mt-1"></i>
+                                <div>
+                                    <h5 class="font-bold text-stone-800 text-sm">Kalender Konten Konsisten</h5>
+                                    <p class="text-xs text-stone-500 mt-1">Menyusun penjadwalan konten berkala dari
+                                        tahap pra-oprec hingga penutupan pendaftaran.</p>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-stone-50 rounded-xl border border-stone-100 flex gap-3">
+                                <i class="fa-solid fa-magnifying-glass-chart text-brand-600 mt-1"></i>
+                                <div>
+                                    <h5 class="font-bold text-stone-800 text-sm">Riset Tren Audiens</h5>
+                                    <p class="text-xs text-stone-500 mt-1">Menganalisis tren media sosial yang digemari
+                                        mahasiswa baru serta menentukan jam upload optimal.</p>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-stone-50 rounded-xl border border-stone-100 flex gap-3">
+                                <i class="fa-solid fa-pen-nib text-brand-600 mt-1"></i>
+                                <div>
+                                    <h5 class="font-bold text-stone-800 text-sm">Scriptwriting Persuasif</h5>
+                                    <p class="text-xs text-stone-500 mt-1">Menulis naskah informatif mengenai
+                                        persyaratan, seleksi, dan benefit organisasi.</p>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-stone-50 rounded-xl border border-stone-100 flex gap-3">
+                                <i class="fa-solid fa-chart-line text-brand-600 mt-1"></i>
+                                <div>
+                                    <h5 class="font-bold text-stone-800 text-sm">Evaluasi Performa</h5>
+                                    <p class="text-xs text-stone-500 mt-1">Mengevaluasi analytics performa konten untuk
+                                        memformulasikan perbaikan taktik ke depan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Talent Tab -->
+                    <div id="content-talent" class="space-y-6 tab-content hidden">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-brand-700">
+                                <i class="fa-solid fa-video text-lg"></i>
+                            </div>
+                            <h4 class="text-lg font-bold text-stone-900">Representasi Visual & On-Camera Specialist</h4>
+                        </div>
+                        <p class="text-stone-600 leading-relaxed">
+                            Sebagai representasi utama di depan kamera, saya menerjemahkan visi kreatif menjadi
+                            penyampaian pesan yang interaktif, komunikatif, dan persuasif demi membangun kedekatan
+                            dengan calon pendaftar.
+                        </p>
+                        <ul class="space-y-3 pt-2 text-stone-600">
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-600 mt-1"><i class="fa-regular fa-circle-check"></i></span>
+                                <span>Menyampaikan materi pendaftaran dengan pembawaan penuh rasa percaya diri di depan
+                                    kamera.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-600 mt-1"><i class="fa-regular fa-circle-check"></i></span>
+                                <span>Mengarahkan gaya, intonasi, dan ekspresi selama proses syuting sesuai dengan
+                                    arahan naskah.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-600 mt-1"><i class="fa-regular fa-circle-check"></i></span>
+                                <span>Berkontribusi aktif memberikan sudut pandang talent lapangan dalam tahap diskusi
+                                    pra-produksi.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Video Editor Tab -->
+                    <div id="content-editor" class="space-y-6 tab-content hidden">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-brand-700">
+                                <i class="fa-solid fa-photo-film text-lg"></i>
+                            </div>
+                            <h4 class="text-lg font-bold text-stone-900">Video Editor Berorientasi Retainment &
+                                Engagement</h4>
+                        </div>
+                        <p class="text-stone-600 leading-relaxed">
+                            Saya bertugas memproses rekaman mentah (audio & video) menjadi video vertikal berdurasi
+                            singkat yang menarik serta siap tayang di Instagram Reels dan TikTok.
+                        </p>
+                        <div class="space-y-4 pt-2">
+                            <div class="flex items-start gap-4">
+                                <span
+                                    class="flex-shrink-0 w-8 h-8 rounded-full bg-stone-100 flex items-center justify-center text-brand-600 font-bold text-sm">1</span>
+                                <div>
+                                    <h5 class="font-bold text-stone-800">Dynamic Beat-Syncing & Presisi</h5>
+                                    <p class="text-sm text-stone-500 mt-0.5">Memotong klip video (cutting) secara
+                                        presisi menyesuaikan ketukan (beat) musik latar untuk mempertahankan
+                                        ketertarikan penonton (retainment).</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <span
+                                    class="flex-shrink-0 w-8 h-8 rounded-full bg-stone-100 flex items-center justify-center text-brand-600 font-bold text-sm">2</span>
+                                <div>
+                                    <h5 class="font-bold text-stone-800">Optimalisasi Format Sosial Media</h5>
+                                    <p class="text-sm text-stone-500 mt-0.5">Menyesuaikan rasio aspek vertikal (9:16),
+                                        bit rate, dan codec untuk visualisasi yang tajam dan mulus di TikTok & Instagram
+                                        Reels.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <span
+                                    class="flex-shrink-0 w-8 h-8 rounded-full bg-stone-100 flex items-center justify-center text-brand-600 font-bold text-sm">3</span>
+                                <div>
+                                    <h5 class="font-bold text-stone-800">Informasi Tambahan Visual</h5>
+                                    <p class="text-sm text-stone-500 mt-0.5">Menyisipkan teks penjelas, infografis,
+                                        subtitles, serta branding organisasi secara tepat guna memudahkan pemahaman.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardcoded Portfolio Section (Separated Formats) -->
+    <section id="portfolio-section" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center space-y-4 mb-12">
+                <div
+                    class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-100 text-brand-800 font-bold text-xs uppercase tracking-wider">
+                    <i class="fa-solid fa-folder-open"></i> Galeri Hasil Karya Kreatif
+                </div>
+                <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Koleksi Portofolio PSM Gita Sasmita
+                </h2>
+                <p class="text-stone-500 max-w-2xl mx-auto text-sm sm:text-base">
+                    Eksplorasi proyek kreatif terpilih yang diproduksi secara eksklusif untuk kampanye digital <span
+                        class="font-bold text-brand-700">@psmgitasasmita</span>. Klik untuk melihat isi konten lebih
+                    detail.
+                </p>
+                <div class="w-16 h-1 bg-brand-600 mx-auto rounded"></div>
+            </div>
+
+            <!-- Custom Format Category Switcher buttons -->
+            <div class="flex justify-center mb-10">
+                <div class="bg-stone-100 p-1 rounded-full inline-flex border border-stone-200">
+                    <button onclick="togglePortfolioFormat('video')" id="format-btn-video"
+                        class="px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all bg-brand-600 text-white shadow-sm">
+                        <i class="fa-solid fa-play mr-2"></i> 🎥 Video Konten
+                    </button>
+                    <button onclick="togglePortfolioFormat('feed')" id="format-btn-feed"
+                        class="px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all text-stone-600 hover:text-stone-900">
+                        <i class="fa-solid fa-images mr-2"></i> 🎨 Design Feeds
+                    </button>
+                </div>
+            </div>
+
+            <!-- Format A: Video Content Reels Grid (3 items exactly) -->
+            <div id="video-content-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Will be dynamically loaded from hardcoded JS array for easiest customization -->
+            </div>
+
+            <!-- Format B: Instagram Design Feeds Grid (2 items exactly) -->
+            <div id="feed-content-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto hidden">
+                <!-- Will be dynamically loaded from hardcoded JS array for easiest customization -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Custom Phone Player Overlay Modal for Reels Video -->
+    <div id="phone-modal"
+        class="fixed inset-0 bg-stone-900/90 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+        <div
+            class="relative w-full max-w-sm bg-stone-950 rounded-[48px] border-8 border-stone-800 shadow-2xl flex flex-col overflow-hidden aspect-[9/19] max-h-[85vh]">
+
+            <!-- Phone Notch Speaker -->
+            <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 h-6 w-32 bg-stone-800 rounded-b-2xl z-40 flex justify-center items-center">
+                <div class="w-12 h-1 bg-stone-900 rounded-full"></div>
+            </div>
+
+            <!-- Inside Phone Video Screen -->
+            <div class="relative flex-1 bg-black overflow-hidden flex items-center justify-center">
+
+                <!-- Video Source Player Container -->
+                <div id="phone-media-container" class="w-full h-full">
+                    <!-- Embedded dynamically inside safe iframe / video tags -->
+                </div>
+
+                <!-- Simulated Instagram Reels UI Overlays with the correct username request -->
+                <div class="absolute bottom-4 left-4 right-14 text-white z-30 drop-shadow-md pointer-events-none">
+                    <div class="flex items-center gap-2 mb-2">
+                        <div
+                            class="w-8 h-8 rounded-full bg-brand-200 border border-white overflow-hidden flex items-center justify-center">
+                            <span class="font-bold text-[10px] text-brand-900">PSM</span>
+                        </div>
+                        <span class="font-bold text-xs">@psmgitasasmita</span>
+                    </div>
+                    <h4 id="phone-reels-title" class="font-bold text-sm leading-tight line-clamp-1"></h4>
+                    <p id="phone-reels-desc" class="text-[11px] text-stone-200 mt-1 line-clamp-2"></p>
+                    <div
+                        class="flex items-center gap-2 mt-2 bg-black/30 backdrop-blur-xs rounded-full px-2.5 py-1 w-fit">
+                        <i class="fa-solid fa-music text-[9px] animate-spin"></i>
+                        <span class="text-[10px] truncate max-w-[120px]">PSM Gita Sasmita - Sound</span>
+                    </div>
+                </div>
+
+                <!-- Right Side Simulated Reels Action Buttons -->
+                <div class="absolute bottom-16 right-3 flex flex-col items-center gap-4 text-white z-30 drop-shadow-md">
+                    <button class="flex flex-col items-center hover:scale-110 transition-transform">
+                        <div
+                            class="w-11 h-11 bg-black/40 backdrop-blur-xs rounded-full flex items-center justify-center text-pink-500">
+                            <i class="fa-solid fa-heart text-lg"></i>
+                        </div>
+                        <span class="text-[10px] mt-1 font-bold">12.5k</span>
+                    </button>
+                    <button class="flex flex-col items-center hover:scale-110 transition-transform">
+                        <div
+                            class="w-11 h-11 bg-black/40 backdrop-blur-xs rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-comment text-lg"></i>
+                        </div>
+                        <span class="text-[10px] mt-1 font-bold">1.2k</span>
+                    </button>
+                    <button class="flex flex-col items-center hover:scale-110 transition-transform">
+                        <div
+                            class="w-11 h-11 bg-black/40 backdrop-blur-xs rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-paper-plane text-base"></i>
+                        </div>
+                        <span class="text-[10px] mt-1">Share</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Close Modal Button -->
+            <button onclick="closePhoneModal()" aria-label="Close modal
+                class=" absolute top-4 right-4 z-50 w-10 h-10 rounded-full bg-white/20 hover:bg-white/40 text-white
+                backdrop-blur-md flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Custom Feed Lightbox modal for Square Designs -->
+    <div id="feed-modal"
+        class="fixed inset-0 bg-stone-900/95 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+        <div
+            class="bg-white rounded-2xl overflow-hidden shadow-2xl max-w-3xl w-full flex flex-col md:flex-row max-h-[90vh]">
+
+            <!-- Left Side: Interactive Feed Image Preview -->
+            <div class="md:w-1/2 bg-stone-950 flex items-center justify-center p-1">
+                <img id="feed-modal-img" src="" alt="Design Preview"
+                    class="max-h-[40vh] md:max-h-[60vh] object-contain">
+            </div>
+
+            <!-- Right Side: Description and Instagram Style Mockup Details -->
+            <div class="md:w-1/2 p-6 flex flex-col justify-between">
+                <div>
+                    <!-- Header -->
+                    <div class="flex items-center justify-between border-b border-stone-100 pb-3 mb-4">
+                        <div class="flex items-center gap-2">
+                            <div
+                                class="w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center font-bold text-xs">
+                                PSM
+                            </div>
+                            <span class="font-bold text-sm text-stone-950">@psmgitasasmita</span>
+                        </div>
+                        <button onclick="closeFeedModal()" aria-label="Close modal
+                            class=" text-stone-400 hover:text-stone-800 transition-colors">
+                            <i class="fa-solid fa-xmark text-xl"></i>
+                        </button>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="space-y-3 overflow-y-auto max-h-[30vh]">
+                        <h4 id="feed-modal-title" class="font-extrabold text-lg text-stone-900"></h4>
+                        <p id="feed-modal-desc" class="text-stone-600 text-sm leading-relaxed"></p>
+                    </div>
+                </div>
+
+                <!-- Footer Simulating Post Actions -->
+                <div class="border-t border-stone-100 pt-4 mt-4">
+                    <div class="flex items-center gap-4 text-stone-600 mb-3 text-lg">
+                        <i class="fa-regular fa-heart hover:text-red-500 cursor-pointer transition-colors"></i>
+                        <i class="fa-regular fa-comment hover:text-brand-600 cursor-pointer transition-colors"></i>
+                        <i class="fa-regular fa-paper-plane hover:text-blue-500 cursor-pointer transition-colors"></i>
+                    </div>
+                    <span class="text-xs text-stone-400 font-medium">Desain dipublikasikan di Feed Instagram</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-brand-50/50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Keahlian & Alat Kerja</h2>
+                <div class="w-16 h-1 bg-brand-600 mx-auto rounded"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Skill Category 1 -->
+                <div
+                    class="p-6 rounded-2xl bg-white border border-brand-100 shadow-xs hover:shadow-md transition-shadow">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-stone-900 mb-4">Manajemen Konten & Kreatif</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Content
+                            Strategy</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Content
+                            Calendar</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">On-Camera
+                            Performance</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Video
+                            Production</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Scriptwriting</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div
+                    class="p-6 rounded-2xl bg-white border border-brand-100 shadow-xs hover:shadow-md transition-shadow">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-stone-900 mb-4">Teknis & Tools</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium"><i
+                                class="fa-solid fa-mobile-screen mr-1 text-teal-600"></i> Capcut</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium"><i
+                                class="fa-solid fa-palette mr-1 text-indigo-500"></i> Canva</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium"><i
+                                class="fa-solid fa-wand-magic mr-1 text-blue-500"></i> Alight Motion</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium"><i
+                                class="fa-regular fa-file-word mr-1 text-blue-600"></i> MS Office</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium"><i
+                                class="fa-brands fa-google mr-1 text-red-500"></i> Google Workspace</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div
+                    class="p-6 rounded-2xl bg-white border border-brand-100 shadow-xs hover:shadow-md transition-shadow">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-stone-900 mb-4">Komunikasi & Bahasa</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Manajemen
+                            Tim Konten</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Kerja
+                            Sama Lintas Divisi</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Komunikasi
+                            Interpersonal</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Indonesia
+                            (Native)</span>
+                        <span
+                            class="px-3 py-1.5 bg-brand-50 text-stone-700 text-sm rounded-lg border border-stone-100 font-medium">Inggris
+                            (Intermediate)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Pendidikan</h2>
+                <div class="w-16 h-1 bg-brand-600 mx-auto rounded"></div>
+            </div>
+
+            <!-- Vertical Timeline -->
+            <div class="relative border-l-2 border-brand-200 ml-4 md:ml-32 space-y-12">
+                <!-- Education Item 1 -->
+                <div class="relative pl-8 md:pl-10">
+                    <!-- Marker -->
+                    <div
+                        class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-brand-600 border-4 border-white shadow-sm">
+                    </div>
+                    <!-- Date Badge (Desktop only) -->
+                    <div class="hidden md:block absolute -left-40 top-1 text-right w-32">
+                        <span
+                            class="text-sm font-bold text-brand-800 bg-brand-100 px-3 py-1 rounded-full whitespace-nowrap">
+                            2024 - Sekarang
+                        </span>
+                    </div>
+                    <div class="bg-brand-50 p-6 rounded-2xl border border-brand-100 shadow-xs">
+                        <span
+                            class="inline-block md:hidden mb-2 text-xs font-bold text-brand-800 bg-brand-100 px-2 py-0.5 rounded-full">2024
+                            - Sekarang</span>
+                        <h3 class="text-xl font-bold text-stone-900">Universitas Pamulang</h3>
+                        <p class="text-brand-700 font-medium mt-1">S1 Sistem Informasi</p>
+                        <p class="text-stone-500 text-sm mt-2">Mempelajari kombinasi antara analisis data, efisiensi
+                            penjadwalan konten digital, dan rancang bangun arsitektur sistem komunikasi organisasi.</p>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="relative pl-8 md:pl-10">
+                    <!-- Marker -->
+                    <div
+                        class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-stone-300 border-4 border-white shadow-sm">
+                    </div>
+                    <!-- Date Badge (Desktop only) -->
+                    <div class="hidden md:block absolute -left-40 top-1 text-right w-32">
+                        <span
+                            class="text-sm font-bold text-stone-500 bg-stone-100 px-3 py-1 rounded-full whitespace-nowrap">
+                            2020 - 2023
+                        </span>
+                    </div>
+                    <div class="bg-brand-50 p-6 rounded-2xl border border-stone-100 shadow-xs">
+                        <span
+                            class="inline-block md:hidden mb-2 text-xs font-bold text-stone-500 bg-stone-100 px-2 py-0.5 rounded-full">2020
+                            - 2023</span>
+                        <h3 class="text-xl font-bold text-stone-900">SMA Negeri 1 Ambon</h3>
+                        <p class="text-brand-700 font-medium mt-1">MIPA (Matematika & Ilmu Pengetahuan Alam)</p>
+                        <p class="text-stone-500 text-sm mt-2">Membentuk cara berpikir terstruktur, analitis, serta
+                            mengasah logika pemecahan masalah.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-brand-50/50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Hubungi Saya</h2>
+                <p class="text-stone-500">Mari berdiskusi untuk menciptakan konten Reels/TikTok kreatif untuk brand atau
+                    proyekmu!</p>
+                <div class="w-16 h-1 bg-brand-600 mx-auto rounded"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- Contact Info Cards (Left) -->
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="p-6 rounded-2xl bg-white border border-brand-100 flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center text-xl">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-stone-400 font-semibold uppercase tracking-wider block">Kirim
+                                Email</span>
+                            <a href="mailto:gidionjamlean10@gmail.com"
+                                class="font-bold text-stone-800 hover:text-brand-700 text-base break-all">gidionjamlean10@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-white border border-brand-100 flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center text-xl">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <span
+                                class="text-xs text-stone-400 font-semibold uppercase tracking-wider block">WhatsApp</span>
+                            <a href="https://wa.me/6281247883607" target="_blank" rel="noopener noreferrer"
+                                class="font-bold text-stone-800 hover:text-brand-700 text-base">+62 812-4788-3607</a>
+                        </div>
+                    </div>
+
+                    <!-- Instagram Fast Link Card -->
+                    <div class="p-6 rounded-2xl bg-white border border-brand-100 flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 text-white flex items-center justify-center text-xl">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div>
+                            <span
+                                class="text-xs text-stone-400 font-semibold uppercase tracking-wider block">Instagram</span>
+                            <a href="https://instagram.com/gidionnn_" target="_blank" rel="noopener noreferrer"
+                                class="font-bold text-stone-800 hover:text-brand-700 text-base">@gidionnn_</a>
+                        </div>
+                    </div>
+
+                    <!-- TikTok Fast Link Card -->
+                    <div class="p-6 rounded-2xl bg-white border border-brand-100 flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-stone-900 text-white flex items-center justify-center text-xl">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </div>
+                        <div>
+                            <span
+                                class="text-xs text-stone-400 font-semibold uppercase tracking-wider block">TikTok</span>
+                            <a href="https://www.tiktok.com/@twistverse3" target="_blank" rel="noopener noreferrer"
+                                class="font-bold text-stone-800 hover:text-brand-700 text-base">@twistverse3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form (Right) -->
+                <div class="lg:col-span-7 bg-white rounded-2xl p-8 border border-brand-100 shadow-xs">
+                    <h3 class="text-xl font-bold text-stone-900 mb-6">Tinggalkan Pesan</h3>
+                    <form onsubmit="handleSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label
+                                    class="block text-xs font-bold text-stone-600 uppercase tracking-wide mb-2">Nama</label>
+                                <input type="text" id="contact-name" required
+                                    class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:border-brand-600 bg-brand-50"
+                                    placeholder="Nama Anda">
+                            </div>
+                            <div>
+                                <label
+                                    class="block text-xs font-bold text-stone-600 uppercase tracking-wide mb-2">Email</label>
+                                <input type="email" id="contact-email" required
+                                    class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:border-brand-600 bg-brand-50"
+                                    placeholder="alamat@email.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-stone-600 uppercase tracking-wide mb-2">Subjek /
+                                Keperluan</label>
+                            <input type="text" id="contact-subject" required
+                                class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:border-brand-600 bg-brand-50"
+                                placeholder="Kolaborasi / Pertanyaan / dst">
+                        </div>
+                        <div>
+                            <label
+                                class="block text-xs font-bold text-stone-600 uppercase tracking-wide mb-2">Pesan</label>
+                            <textarea id="contact-message" required rows="4"
+                                class="w-full px-4 py-3 rounded-xl border border-stone-200 focus:outline-none focus:border-brand-600 bg-brand-50 resize-none"
+                                placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full py-4 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold transition-all shadow-md">
+                            Kirim Pesan <i class="fa-regular fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <span class="text-white font-bold text-xl block">Gidion Jamlean</span>
+                    <span class="text-xs text-stone-500 mt-1 block">S1 Sistem Informasi & Konten Kreator Digital</span>
+                </div>
+                <!-- Interactive Footer Social Links including TikTok & Instagram -->
+                <div class="flex items-center gap-5">
+                    <a href="mailto:gidionjamlean10@gmail.com" title="Kirim Email"
+                        class="w-10 h-10 rounded-full bg-stone-800 hover:bg-brand-600 hover:text-white transition-all flex items-center justify-center">
+                        <i class="fa-regular fa-envelope text-base"></i>
+                    </a>
+                    <a href="https://wa.me/6281247883607" target="_blank" title="WhatsApp Chat"
+                        rel="noopener noreferrer"
+                        class="w-10 h-10 rounded-full bg-stone-800 hover:bg-teal-600 hover:text-white transition-all flex items-center justify-center">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                    <a href="https://instagram.com/gidionnn_" target="_blank" rel="noopener noreferrer"
+                        title="Instagram Pribadi @gidionnn_"
+                        class="w-10 h-10 rounded-full bg-stone-800 hover:bg-gradient-to-tr hover:from-yellow-500 hover:via-red-500 hover:to-purple-600 hover:text-white transition-all flex items-center justify-center">
+                        <i class="fa-brands fa-instagram text-lg"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@twistverse3" target="_blank" rel="noopener noreferrer"
+                        title="TikTok Resmi Pribadi @twistverse"
+                        class="w-10 h-10 rounded-full bg-stone-800 hover:bg-stone-950 hover:text-white transition-all flex items-center justify-center border border-stone-700 hover:border-transparent">
+                        <i class="fa-brands fa-tiktok text-sm"></i>
+                    </a>
+                </div>
+            </div>
+            <hr class="border-stone-800 my-8">
+            <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+                <span>&copy; <span id="current-year"></span> Gidion Jamlean. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Message Container -->
+    <div id="toast-msg"
+        class="fixed bottom-5 right-5 bg-stone-900 text-white px-6 py-4 rounded-xl shadow-2xl z-50 transform translate-y-20 transition-all duration-300 flex items-center gap-3 border border-brand-400 opacity-0 pointer-events-none">
+    </div>
+
+    <!-- Interactive JS Scripts -->
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Interactive Tab Switcher
+        function switchTab(role) {
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.classList.add('hidden'));
+
+            const buttons = [
+                { id: 'tab-planner' },
+                { id: 'tab-talent' },
+                { id: 'tab-editor' }
+            ];
+
+            buttons.forEach(btnInfo => {
+                const el = document.getElementById(btnInfo.id);
+                el.classList.remove('border-brand-600', 'text-brand-700', 'bg-white');
+                el.classList.add('border-transparent', 'text-stone-500');
+            });
+
+            if (role === 'planner') {
+                document.getElementById('content-planner').classList.remove('hidden');
+                const activeBtn = document.getElementById('tab-planner');
+                activeBtn.classList.remove('border-transparent', 'text-stone-500');
+                activeBtn.classList.add('border-brand-600', 'text-brand-700', 'bg-white');
+            } else if (role === 'talent') {
+                document.getElementById('content-talent').classList.remove('hidden');
+                const activeBtn = document.getElementById('tab-talent');
+                activeBtn.classList.remove('border-transparent', 'text-stone-500');
+                activeBtn.classList.add('border-brand-600', 'text-brand-700', 'bg-white');
+            } else if (role === 'editor') {
+                document.getElementById('content-editor').classList.remove('hidden');
+                const activeBtn = document.getElementById('tab-editor');
+                activeBtn.classList.remove('border-transparent', 'text-stone-500');
+                activeBtn.classList.add('border-brand-600', 'text-brand-700', 'bg-white');
+            }
+        }
+
+        // Custom Toast Notification System
+        function showToast(title, msg, isSuccess = true) {
+            const toast = document.getElementById('toast-msg');
+            toast.innerHTML = isSuccess
+                ? `<i class="fa-solid fa-circle-check text-brand-300 text-xl"></i> <div><p class="font-bold">${title}</p><p class="text-xs text-stone-300">${msg}</p></div>`
+                : `<i class="fa-solid fa-triangle-exclamation text-red-400 text-xl"></i> <div><p class="font-bold">${title}</p><p class="text-xs text-stone-300">${msg}</p></div>`;
+
+            toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+            }, 4500);
+        }
+
+        // Contact Form Handlers
+        function handleSubmit(e) {
+            e.preventDefault();
+            showToast("Pesan Terkirim!", "Terima kasih, Gidion akan segera merespons pesan Anda.");
+            e.target.reset();
+        }
+
+        /* -------------------------------------------------------------
+           PETUNJUK EDIT BAGIAN PORTFOLIO (HARDCODED)
+           Gidion, kamu bisa langsung mengedit bagian data array di bawah ini
+           untuk menyesuaikan konten video atau tautan poster feeds kamu!
+           ------------------------------------------------------------- */
+
+        // FORMAT 1: 3 PROJECT VIDEO REELS (9:16 Vertikal)
+        const VIDEO_PROJECTS = [
+            {
+                id: 'video-1',
+                title: "Trend video Open Recruitment PSM Gita Sasmita 2026",
+                category: "Video Editing",
+                description: "Menampilkan teknik pemotongan dinamis berbasis ketukan audio (beat-syncing) di Capcut. Dirancang untuk menumbuhkan rasa penasaran & retensi visual penonton maksimal di Instagram Reels.",
+                // Ganti tautan di bawah ini dengan link video milik Anda (misal: file lokal 'videos/teaser.mp4' atau youtube embed)
+                src: "assets/video/konten1.mp4",
+                type: "file", // "url" jika link embed youtube/shorts, "file" jika video offline (.mp4)
+                thumbnail: "assets/image/t1.jpeg"
+            },
+            {
+                id: 'video-2',
+                title: "Video Promosi: On-Camera Talent Open Recruitment PSM",
+                category: "On-Camera Talent",
+                description: "Menjadi on-camera talent utama dan menyampaikan ajakan persuasif kepada mahasiswa baru dengan pembawaan yang komunikatif, ceria, dan adaptif terhadap tren media sosial guna meningkatkan minat pendaftaran UKM.",
+                src: "assets/video/konten2.mp4",
+                type: "file",
+                thumbnail: "assets/image/t2.jpeg"
+            },
+            {
+                id: 'video-3',
+                title: "Video Kreatif: POV Komedi Open Recruitment PSM",
+                category: "Content Planning",
+                description: "Hasil dari perencanaan video pendek kreatif dengan pendekatan tren POV komedi situasi sebagai media promosi Open Recruitment PSM Gita Sasmita. Menggunakan konsep humor yang relevan untuk mendongkrak engagement dan interaksi organik secara efektif.",
+                src: "assets/video/konten3.mp4",
+                type: "file",
+                thumbnail: "assets/image/t3.jpeg"
+            }
+        ];
+
+        // FORMAT 2: 2 PROJECT DESIGN FEEDS INSTAGRAM (1:1 Square)
+        const FEED_PROJECTS = [
+            {
+                id: 'feed-1',
+                title: "Desain Ucapan Hari Guru Nasional",
+                category: "Feeds",
+                description: "Perancangan visual ucapan Hari Guru Nasional untuk PSM Gita Sasmita Universitas Pamulang. Menggunakan ilustrasi guru, elemen papan tulis, dan tumpukan buku dengan kombinasi warna hangat yang estetik.",
+                // Ganti dengan file gambar feeds Anda (misal: 'images/feed_poster.jpeg')
+                image: "assets/image/design1.png"
+            },
+            {
+                id: 'feed-2',
+                title: "Desain Feed Hari Lahir Pancasila",
+                category: "Feeds",
+                description: "Pengembangan visual ucapan memperingati Hari Lahir Pancasila. Menampilkan kombinasi megah lambang Garuda Pancasila, bendera Merah Putih yang dinamis, dengan latar belakang nuansa hijau yang bersih.",
+                image: "assets/image/design2.jpeg"
+            }
+        ];
+
+        /* --- LOGIKA SISTEM GALERI DAN MODAL PORTFOLIO --- */
+
+        // Menampilkan atau menyembunyikan Tab Format Karya
+        function togglePortfolioFormat(format) {
+            const videoGrid = document.getElementById('video-content-grid');
+            const feedGrid = document.getElementById('feed-content-grid');
+            const videoBtn = document.getElementById('format-btn-video');
+            const feedBtn = document.getElementById('format-btn-feed');
+
+            if (format === 'video') {
+                videoGrid.classList.remove('hidden');
+                feedGrid.classList.add('hidden');
+
+                videoBtn.className = "px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all bg-brand-600 text-white shadow-sm";
+                feedBtn.className = "px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all text-stone-600 hover:text-stone-900";
+            } else {
+                videoGrid.classList.add('hidden');
+                feedGrid.classList.remove('hidden');
+
+                feedBtn.className = "px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all bg-brand-600 text-white shadow-sm";
+                videoBtn.className = "px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all text-stone-600 hover:text-stone-900";
+            }
+        }
+
+        // Render data Video Reels (Format 9:16)
+        function renderVideoProjects() {
+            const container = document.getElementById('video-content-grid');
+            container.innerHTML = "";
+
+            VIDEO_PROJECTS.forEach(video => {
+                let categoryColor = "bg-brand-600 text-white";
+                if (video.category.includes('Talent')) categoryColor = "bg-pink-600 text-white";
+                if (video.category.includes('Planning')) categoryColor = "bg-blue-600 text-white";
+
+                container.innerHTML += `
+                    <div class="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-stone-200 bg-stone-900 group cursor-pointer" onclick="playInPhoneSimulator('${video.id}')">
+                        <!-- Cover Image -->
+                        <img src="${video.thumbnail}" alt="${video.title}" class="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500">
+                        <!-- Dark overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-black/30 z-10"></div>
+                        
+                        <!-- Top Meta Header -->
+                        <div class="absolute top-4 left-4 right-4 z-20 flex justify-between items-center">
+                            <span class="px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider ${categoryColor}">${video.category}</span>
+                            <span class="text-white text-xs bg-black/50 w-7 h-7 rounded-full flex items-center justify-center"><i class="fa-solid fa-play"></i></span>
+                        </div>
+
+                        <!-- Hover Icon -->
+                        <div class="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div class="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white border border-white/40 transform scale-90 group-hover:scale-100 transition-transform">
+                                <i class="fa-solid fa-play text-2xl ml-1"></i>
+                            </div>
+                        </div>
+
+                        <!-- Info Footer -->
+                        <div class="absolute bottom-4 left-4 right-4 z-20 text-white">
+                            <h3 class="font-extrabold text-sm sm:text-base leading-snug line-clamp-2">${video.title}</h3>
+                            <p class="text-[10px] text-stone-300 line-clamp-1 mt-1"><i class="fa-solid fa-music mr-1"></i> Original Audio - @psmgitasasmita</p>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        // Render data Design Feeds (Format 1:1)
+        function renderFeedProjects() {
+            const container = document.getElementById('feed-content-grid');
+            container.innerHTML = "";
+
+            FEED_PROJECTS.forEach(feed => {
+                container.innerHTML += `
+                    <div class="bg-white rounded-2xl overflow-hidden border border-stone-200 shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="showFeedLightbox('${feed.id}')">
+                        <!-- Image Container (Square 1:1) -->
+                        <div class="relative aspect-[1/1] bg-stone-100 overflow-hidden">
+                            <img src="${feed.image}" alt="${feed.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10"></div>
+                            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-semibold px-2.5 py-1 rounded-full z-20 flex items-center gap-1.5">
+                                <i class="fa-solid fa-maximize"></i> Zoom Desain
+                            </div>
+                        </div>
+
+                        <!-- Info Card Footer -->
+                        <div class="p-4 border-t border-stone-100">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="px-2 py-0.5 bg-brand-100 text-brand-800 text-[10px] font-bold rounded-md uppercase tracking-wider">${feed.category}</span>
+                            </div>
+                            <h3 class="font-bold text-stone-900 text-sm sm:text-base leading-tight group-hover:text-brand-700 transition-colors line-clamp-1">${feed.title}</h3>
+                            <p class="text-xs text-stone-500 mt-1 line-clamp-2">${feed.description}</p>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        // Convert Youtube link helper safely
+        function parseYoutubeEmbed(url) {
+            let regExpShorts = /youtube\.com\/shorts\/([A-Za-z0-9_-]{11})/;
+            let matchShorts = url.match(regExpShorts);
+            if (matchShorts && matchShorts[1]) {
+                return "https://www.youtube.com/embed/" + matchShorts[1];
+            }
+            let regExpStandard = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+            let matchStandard = url.match(regExpStandard);
+            if (matchStandard && matchStandard[2].length == 11) {
+                return "https://www.youtube.com/embed/" + matchStandard[2];
+            }
+            return url;
+        }
+
+        // Open Video Simulator Modal
+        function playInPhoneSimulator(id) {
+            const video = VIDEO_PROJECTS.find(v => v.id === id);
+            if (!video) return;
+
+            const modal = document.getElementById('phone-modal');
+            const mediaContainer = document.getElementById('phone-media-container');
+            const phoneTitle = document.getElementById('phone-reels-title');
+            const phoneDesc = document.getElementById('phone-reels-desc');
+
+            phoneTitle.textContent = video.title;
+            phoneDesc.textContent = video.description;
+
+            if (video.type === 'file') {
+                // If using local MP4 video file
+                mediaContainer.innerHTML = `
+                    <video class="w-full h-full object-cover pointer-events-auto" autoplay loop controls muted playsinline webkit-playsinline>
+                        <source src="${video.src}">
+                        Your browser doesn't support video tags.
+                    </video>
+                `;
+            } else {
+                // If using youtube or shorts link
+                const cleanEmbed = parseYoutubeEmbed(video.src);
+                mediaContainer.innerHTML = `
+                    <iframe class="w-full h-full pointer-events-auto" src="${cleanEmbed}?autoplay=1&mute=1&loop=1&playsinline=1&playlist=${cleanEmbed.split('/').pop()}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                `;
+            }
+
+            modal.classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        // Close Video Simulator
+        function closePhoneModal() {
+            const modal = document.getElementById('phone-modal');
+            document.getElementById('phone-media-container').innerHTML = "";
+            modal.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        // Open Feeds Zoom Lightbox Modal
+        function showFeedLightbox(id) {
+            const feed = FEED_PROJECTS.find(f => f.id === id);
+            if (!feed) return;
+
+            const modal = document.getElementById('feed-modal');
+            document.getElementById('feed-modal-img').src = feed.image;
+            document.getElementById('feed-modal-title').textContent = feed.title;
+            document.getElementById('feed-modal-desc').textContent = feed.description;
+
+            modal.classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        // Close Feeds Lightbox Modal
+        function closeFeedModal() {
+            const modal = document.getElementById('feed-modal');
+            modal.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        // Initialization
+        window.onload = function () {
+            renderVideoProjects();
+            renderFeedProjects();
+        };
+    </script>
+</body>
+
+</html>
